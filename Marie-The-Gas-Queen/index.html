@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #000000;
+        }
+
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            padding: 20px;
+            width: 100%;
+            max-width: 1200px;
+        }
+
+        .image-grid img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .image-grid img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="image-grid">
+        <a href="https://www.erome.com/a/o6tydaDq" target="_blank">
+            <img src="https://s308.erome.com/1308/o6tydaDq/AWumpVbn.jpg" alt="Image 2">
+        </a>
+        <a href="https://www.erome.com/a/5VIcmChl" target="_blank">
+            <img src="https://s44.erome.com/1303/5VIcmChl/z6KhIcFZ.jpg" alt="Image 3">
+        </a>
+        <a href="https://www.erome.com/a/LbWZOlVe" target="_blank">
+            <img src="https://s309.erome.com/1274/LbWZOlVe/y4AM4D4G.jpg" alt="Image 4">
+        </a>
+        <a href="https://www.erome.com/a/AaiPtg5j" target="_blank">
+            <img src="https://s50.erome.com/1239/AaiPtg5j/J6vI2nTr.jpg" alt="Image 4">
+        </a>
+    </div>
+</body>
+
+</html>
