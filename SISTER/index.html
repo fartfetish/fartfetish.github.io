@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #000000;
+        }
+
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            padding: 20px;
+            width: 100%;
+            max-width: 1200px;
+        }
+
+        .image-grid img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .image-grid img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="image-grid">
+        <a href="https://drive.google.com/file/d/1FPdHuQOw5zV_z5FV_D8XY7p-J_c4hfvo/view?usp=drive_link" target="_blank">
+            <img src="1.png" alt="Image 1">
+        </a>
+        <a href="https://drive.google.com/file/d/1GI0cgJ2_OYPXrdcqlIatnZIrT9_7Rrql/view?usp=drive_link" target="_blank">
+            <img src="2.png" alt="Image 2">
+        </a>
+        <a href="https://drive.google.com/file/d/1eP-8w7lA6zZwBTjC9xcFzYen7kqRFAaz/view?usp=drive_link" target="_blank">
+            <img src="3.png" alt="Image 3">
+        </a>
+        <a href="https://drive.google.com/file/d/1tTi9qlYn_cG5Ykc5m07NTV4cpCkkeohn/view?usp=drive_link" target="_blank">
+            <img src="4.png" alt="Image 3">
+        </a>
+        <a href="https://drive.google.com/file/d/1ZaaoovxwBHKjLNhvPyY_lG9H1jbFw-rg/view?usp=drive_link" target="_blank">
+            <img src="5.png" alt="Image 3">
+        </a>
+    </div>
+</body>
+
+</html>

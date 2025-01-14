@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #000000;
+        }
+
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            padding: 20px;
+            width: 100%;
+            max-width: 1200px;
+        }
+
+        .image-grid img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .image-grid img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="image-grid">
+        <a href="https://drive.google.com/file/d/1_LUnYR20h4JDlob9g2XrMZfaecznb6Ym/view?usp=drive_link" target="_blank">
+            <img src="1.png" alt="Image 1">
+        </a>
+        <a href="https://drive.google.com/file/d/1txX77LjxklglBqPXYS3q6O1OBKYx9LP9/view?usp=drive_link" target="_blank">
+            <img src="2.png" alt="Image 2">
+        </a>
+        <a href="" target="_blank">
+            <img src="3.png" alt="Image 3">
+        </a>
+    </div>
+</body>
+
+</html>
