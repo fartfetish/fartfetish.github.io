@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #000000;
+        }
+
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            padding: 20px;
+            width: 100%;
+            max-width: 1200px;
+        }
+
+        .image-grid img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .image-grid img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="image-grid">
+        <a href="https://drive.google.com/file/d/1FYXSHBX6XsBwZn8KBV_rQ6BtN-cIvkOz/view?usp=drive_link" target="_blank">
+            <img src="1.png" alt="Image 1">
+        </a>
+        <a href="https://drive.google.com/file/d/1nP96pTwaaKYTKKUgerfEWNUW9QS_j4_p/view?usp=drive_link" target="_blank">
+            <img src="2.png" alt="Image 2">
+        </a>
+        <a href="https://drive.google.com/file/d/1Myztlf-svcTngo02N5BC1ssHoXoyHdCX/view?usp=drive_link" target="_blank">
+            <img src="3.png" alt="Image 3">
+        </a>
+        <a href="https://drive.google.com/file/d/1qsg-qZ1A5S_xoHf4YtVXqd4M1sk8Iflt/view?usp=drive_link" target="_blank">
+            <img src="4.png" alt="Image 4">
+        </a>
+        <a href="https://drive.google.com/file/d/1X4YfZR4-s7N6IML0JQ6HNrYJB8CBBmqr/view?usp=drive_link" target="_blank">
+            <img src="5.png" alt="Image 4">
+        </a>
+        <a href="https://drive.google.com/file/d/1yN1wbMTT0L2OsNkq8v-5V1lsoQkav98M/view?usp=drive_link" target="_blank">
+            <img src="6.png" alt="Image 4">
+        </a>
+        <a href="https://drive.google.com/file/d/1kPS6_vUY-7ihmWvzwTyeC4TirPQZs2TF/view?usp=drive_link" target="_blank">
+            <img src="7.png" alt="Image 4">
+        </a>
+    </div>
+</body>
+
+</html>
